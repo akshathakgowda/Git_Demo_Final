@@ -1,12 +1,12 @@
 package maven.MavenProject;
 
-import java.util.concurrent.TimeUnit;
+/*import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.Test;*/
 
 public class SampleDataProvider
 {
@@ -14,7 +14,12 @@ public class SampleDataProvider
 	{
 		System.setProperty("webdriver.gecko.driver","./drivers/geckodriver.exe");
 	}
-	private static WebDriver driver;
+	public static void main(String[] args)
+	{
+		
+		System.out.println("CONFIGURATION OF JENKINS WITH GIT");
+	}
+	/*private static WebDriver driver;
 	 
 	  @DataProvider(name = "Authentication")
 	 
@@ -46,5 +51,5 @@ public class SampleDataProvider
 	      driver.quit();
 	 
 	  }
-	
+	*/
 }

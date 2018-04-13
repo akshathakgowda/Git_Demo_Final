@@ -2,10 +2,10 @@ package maven.MavenProject;
 
 import org.testng.annotations.Test;
 
-public class Sample
+public class Sample1
 {
-     @Test
-	public void mjen()
+   @Test
+	public void method()
 	{
 		System.out.println("Hello");
 	}
