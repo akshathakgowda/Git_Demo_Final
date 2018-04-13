@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67" started-at="2018-04-12T06:38:00Z" finished-at="2018-04-12T06:38:00Z">
+  <suite name="Suite" duration-ms="54" started-at="2018-04-13T10:13:12Z" finished-at="2018-04-13T10:13:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67" started-at="2018-04-12T06:38:00Z" finished-at="2018-04-12T06:38:00Z">
+    <test name="Test" duration-ms="54" started-at="2018-04-13T10:13:12Z" finished-at="2018-04-13T10:13:12Z">
       <class name="maven.MavenProject.Sample">
-        <test-method status="PASS" signature="mjen()[pri:0, instance:maven.MavenProject.Sample@1d371b2d]" name="mjen" duration-ms="14" started-at="2018-04-12T12:08:00Z" finished-at="2018-04-12T12:08:00Z">
+        <test-method status="PASS" signature="method()[pri:0, instance:maven.MavenProject.Sample@1d371b2d]" name="method" duration-ms="10" started-at="2018-04-13T15:43:12Z" finished-at="2018-04-13T15:43:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mjen -->
+        </test-method> <!-- method -->
       </class> <!-- maven.MavenProject.Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
