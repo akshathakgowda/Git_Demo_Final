@@ -1,10 +1,13 @@
 package maven.MavenProject;
 
+import org.testng.annotations.Test;
+
 public class DemoGit
 {
-	public static void main(String[] args)
+	@Test
+	public static void change()
 	{
-	 System.out.println("Git example shown");
+	 System.out.println("Git example shown ");
 	}
 
 }
