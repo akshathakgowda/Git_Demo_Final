@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="maven.MavenProject.DemoGit"/>
+      <class name="maven.MavenProject.PriyankaFile"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
